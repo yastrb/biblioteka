@@ -124,7 +124,7 @@ const ProductPage = () => {
 						className="bg-buttonB border-none py-2.5 px-10" />
 				</div>
 
-				{/* <ProductDescription description={summary_ukr} /> */}
+				{/* summary */}
 				<div className='product-summary'>
 					<ProductDescription description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Id aperiam dicta voluptate. Soluta iste earum corporis dolores quae aliquam nisi itaque ratione laboriosam. Ratione libero quo adipisci nobis deserunt debitis.lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate repellendus error velit iusto dicta deserunt voluptates praesentium officia ex temporibus dolores totam, aliquid vero nihil, voluptas incidunt eos? Quae, commodi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quibusdam fugit labore incidunt harum. Exercitationem commodi, perferendis consequatur, omnis officia ducimus beatae consequuntur, fuga repellendus quae iusto. Perspiciatis, debitis corrupti?' />
 				</div>

@@ -117,7 +117,7 @@ body.active-modal {
 
 @media (min-width: 1280px){
   .product-item {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 331px 1fr 153px;
     grid-template-areas: 
     "img title price"
     "img info buttons"
