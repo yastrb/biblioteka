@@ -2,24 +2,48 @@
 export const navLinks = [
     {
         id:"1",
+<<<<<<< HEAD
         display:"Каталог",
+=======
+        display:"Головна",
+>>>>>>> dd4605baa5658e0dc84ecec4f7e1351e7b253354
         path:"/",
     },
     {
         id:"2",
+<<<<<<< HEAD
+=======
+        display:"Каталог",
+        path:"/",
+    },
+    {
+        id:"3",
+>>>>>>> dd4605baa5658e0dc84ecec4f7e1351e7b253354
         display:"Про нас",
         path:"/about",
     },
     {
+<<<<<<< HEAD
         id:"3",
+=======
+        id:"4",
+>>>>>>> dd4605baa5658e0dc84ecec4f7e1351e7b253354
         display:"Топ книг",
         path:"/top-books",
     },
     {
+<<<<<<< HEAD
         id:"4",
         display:"Акції",
         path:"/special-offers",
     },
+=======
+        id:"5",
+        display:"Акції",
+        path:"/special-offers",
+    },
+    
+>>>>>>> dd4605baa5658e0dc84ecec4f7e1351e7b253354
 ];
 
 

@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 import close from '../../../assets/close-modal.svg';
+=======
+>>>>>>> dd4605baa5658e0dc84ecec4f7e1351e7b253354
 import google from '../../../assets/google.svg';
 import facebook from '../../../assets/facebook_2.svg';
 import styles from '../../../style';
@@ -30,7 +33,23 @@ const RegisterModal = ({ toggleModal, toggleForm }) => {
                 </div>
 
                 <button className="close-modal" onClick={toggleModal}>
+<<<<<<< HEAD
                     <img src={close} alt="Закрити" />
+=======
+                <svg
+                    className="icon cursor-pointer"
+                        width="14"
+                        height="14"
+                        viewBox="0 0 14 14"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.75732 12.2431L6.99995 7.00045M6.99995 7.00045L12.2426 1.75781M6.99995 7.00045L1.75732 1.75781M6.99995 7.00045L12.2426 12.2431"
+                            stroke="black"
+                            strokeWidth="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round" />
+                    </svg>
+>>>>>>> dd4605baa5658e0dc84ecec4f7e1351e7b253354
                 </button>
             </div>
         </div>

@@ -13,7 +13,11 @@ const Footer = () => {
 	}
 
 	return (
+<<<<<<< HEAD
 		<footer className='realtive bottom-0 p-4'>
+=======
+		<footer className='realtive bottom-0'>
+>>>>>>> dd4605baa5658e0dc84ecec4f7e1351e7b253354
 			<div className={` ${styles.footerTop} py-10`}>
 				<img src={logo} alt='logo-book' />
 				<ul className={`${styles.footerList} ${styles.footerContacts}`}>

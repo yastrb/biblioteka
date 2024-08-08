@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 import close from '../../../assets/close-modal.svg';
+=======
+>>>>>>> dd4605baa5658e0dc84ecec4f7e1351e7b253354
 import styles from '../../../style';
 import { useSelector, useDispatch } from 'react-redux';
 import CartItem from './CartItem';
@@ -15,9 +18,15 @@ const CartModal = ({ toggleModal }) => {
         dispatch(clearCart());
     };
 
+<<<<<<< HEAD
     useEffect(()=> {
         dispatch(calculateTotals());
     },[cartItems]);
+=======
+    useEffect(() => {
+        dispatch(calculateTotals());
+    }, [cartItems]);
+>>>>>>> dd4605baa5658e0dc84ecec4f7e1351e7b253354
 
     return (
         <div className="modal">
@@ -63,7 +72,23 @@ const CartModal = ({ toggleModal }) => {
 
                 {/* close btn */}
                 <button className="close-modal" onClick={toggleModal}>
+<<<<<<< HEAD
                     <img src={close} alt="Закрити" />
+=======
+                    <svg
+                    className="icon cursor-pointer"
+                        width="14"
+                        height="14"
+                        viewBox="0 0 14 14"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.75732 12.2431L6.99995 7.00045M6.99995 7.00045L12.2426 1.75781M6.99995 7.00045L1.75732 1.75781M6.99995 7.00045L12.2426 12.2431"
+                            stroke="black"
+                            strokeWidth="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round" />
+                    </svg>
+>>>>>>> dd4605baa5658e0dc84ecec4f7e1351e7b253354
                 </button>
             </div>
         </div>

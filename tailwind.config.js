@@ -9,23 +9,30 @@ module.exports = withMT({
 				main: '#FFF7D4',
 				secondary: '#FFEAA6',
 				button: '#FFD95A',
+<<<<<<< HEAD
 				buttonB: '#FFF5D4',
+=======
+>>>>>>> dd4605baa5658e0dc84ecec4f7e1351e7b253354
 				black: '#000000',
 				grey: '#ABABAB',
 				green: '#008F17',
 				hover: '#C07F00',
 				orange: '#FFA259',
+<<<<<<< HEAD
 				skyBlue: '#E9E9E9',
 				red: '#8F0000',
 				popUpBg: '#2D2D2D',
 			},
 			backgroundColor: {
 				skyblue: '#E9E9E9',
+=======
+>>>>>>> dd4605baa5658e0dc84ecec4f7e1351e7b253354
 			},
 			fontFamily: {
 				montserrat: ['Montserrat', 'sans-serif'],
 				roboto: ['Roboto', 'sans-serif'],
 			},
+<<<<<<< HEAD
 			height: {
 				'32rem': '32rem',
 				'6rem': '6rem',
@@ -43,6 +50,8 @@ module.exports = withMT({
 			maxHeight: {
 				'49rem': '49rem',
 			},
+=======
+>>>>>>> dd4605baa5658e0dc84ecec4f7e1351e7b253354
 		},
 		screens: {
 			sm: '425px',
